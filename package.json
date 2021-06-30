@@ -1,0 +1,16 @@
+{
+  "name": "cem-preset-docs",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@custom-elements-manifest/to-markdown": "0.0.7"
+  }
+}

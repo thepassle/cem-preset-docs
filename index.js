@@ -84,6 +84,11 @@ function privacyPlugin () {
                 return {...member, privacy: 'private'};
               }
 
+              
+              if(!member?.privacy) {
+                return {...member, privacy: 'public'}
+              }
+
               return member;
             });
 
